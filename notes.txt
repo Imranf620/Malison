@@ -1,0 +1,17 @@
+ ALL Node thing should be in api folder
+ 
+ ==============>{const express = require("express")
+  or write "type" : "module" in package.json and write
+  import express from "express";}
+
+Set the Port
+
+"start" : "node/nodemon index.js" in the package.json to run app with node index.js
+
+Connect The Mongo. to connect Mongo setup the .env and outsidefolder and put and edit link here and store in Mongo Variable
+
+npm i dotenv and import it dotenv.config() to setup
+
+ install mongoose and import and connect it , read connection in mongoose docs use connect.(process.env.MONGO)  to keep your data secret. Put it in a function and run function in listen
+
+ Then API calling like app.get(req,res) etc. if we are getting object then res.json , otherwise res.send()<==================

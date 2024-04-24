@@ -1,0 +1,17 @@
+    make a route folder to make routes
+  
+  
+    ================= Authentication===========
+    
+    make auth.js in routes folder and import express and router and export router.
+
+    import this in index.js
+
+
+Same for others.
+
+=============Create in routes
+
+make models folder in api to put data  use schemas there
+export default mongoose.model("Hotel", HotelSchema)
+
