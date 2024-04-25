@@ -142,7 +142,7 @@ const PaymentForm = () => {
 
     try {
       const response = await fetch(
-        "http://localhost:8800/api/price/recordPayment",
+        "http://localhost:8000/api/price/recordPayment",
         {
           method: "POST",
           headers: {

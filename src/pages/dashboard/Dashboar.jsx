@@ -68,7 +68,7 @@ const Dashboard = () => {
     try {
       const { username, userId } = userDetails.userDetails; // Destructure username and _id from userDetails context
   
-      const response = await fetch('http://localhost:8800/api/price/createCard', {
+      const response = await fetch('http://localhost:8000/api/price/createCard', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

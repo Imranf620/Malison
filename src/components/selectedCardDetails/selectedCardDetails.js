@@ -8,7 +8,7 @@ const SelectedCardDetails = ({ selectedCardId, onCancel }) => {
     const fetchCardDetails = async () => {
       try {
         const response = await fetch(
-          "http://localhost:8800/api/price/getSingleCard",
+          "http://localhost:8000/api/price/getSingleCard",
           {
             method: "POST",
             headers: {

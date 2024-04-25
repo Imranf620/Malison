@@ -130,7 +130,7 @@ const PricingCards = () => {
   useEffect(() => {
     const fetchPricingPlans = async () => {
       try {
-        const response = await fetch("http://localhost:8800/api/price/getCard");
+        const response = await fetch("http://localhost:8000/api/price/getCard");
         if (!response.ok) {
           throw new Error("Failed to fetch pricing plans");
         }
@@ -149,7 +149,7 @@ const PricingCards = () => {
   const deletePricingPlan = async (id) => {
     try {
       const response = await fetch(
-        `http://localhost:8800/api/price/deleteCard/${id}`,
+        `http://localhost:8000/api/price/deleteCard/${id}`,
         {
           method: "DELETE",
         }
