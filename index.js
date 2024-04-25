@@ -16,7 +16,7 @@ app.use(cors({
     credentials: true // Allow credentials (cookies, authorization headers, etc.)
   }));
 
-const port = process.env.PORT || 8800;
+const port = process.env.PORT || 8000;
 
 const connect = async () => {
 
